@@ -15,6 +15,6 @@ for i in range(4):
             borderwidth=1
         )
         frame.grid(column=i,row=j)
-        label=Label(master=frame,text=numbers[i][j],bg="d0efff")
+        label=Label(master=frame,text=numbers[i][j],bg="#d0efff")
         label.pack()
 root.mainloop()        
