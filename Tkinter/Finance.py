@@ -1,7 +1,7 @@
 from tkinter import *
 import math
 root=Tk()
-root.title("Login Screen")
+root.title("Interest")
 root.geometry("400x400")
 
 frame=Frame(master=root, width=360, height=200, bg="#d0efff")
@@ -30,7 +30,7 @@ textbox=Text(bg="#BEBEBE",fg="black")
 btn=Button(text="Calculate", command=display, fg='red')
 
 frame.place(x=20,y=20)
-lbl1.place(x=20,y=20)
+lbl1.place(x=2,y=20)
 pr_entry.place(x=150,y=20)
 lbl2.place(x=20,y=80)
 tp_entry.place(x=150,y=80)
