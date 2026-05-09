@@ -1,7 +1,7 @@
 from tkinter import *
 root=Tk()
 root.title("Login Screen")
-root.geometry("400*400")
+root.geometry("400x400")
 
 frame=Frame(master=root, width=200, height=200, bg="#d0efff")
 
